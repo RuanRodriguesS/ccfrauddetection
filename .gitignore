@@ -3,6 +3,29 @@ __pycache__/
 *.py[codz]
 *$py.class
 
+# Dados — nunca subir CSVs nem o lakehouse
+data/
+*.csv
+*.zip
+lakehouse/
+
+# Credenciais — nunca subir tokens
+*.json
+.env
+secrets.txt
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+.ipynb_checkpoints/
+
+# MLflow
+mlruns/
+
+# IDEs
+.vscode/
+.idea/
 # C extensions
 *.so
 
